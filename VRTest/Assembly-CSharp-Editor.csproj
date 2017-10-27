@@ -46,19 +46,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Cardboard\Editor\CardboardAudioListenerEditor.cs" />
-     <Compile Include="Assets\Cardboard\Editor\CardboardAudioRoomEditor.cs" />
-     <Compile Include="Assets\Cardboard\Editor\CardboardAudioSourceEditor.cs" />
-     <Compile Include="Assets\Cardboard\Editor\CardboardEditor.cs" />
-     <Compile Include="Assets\Cardboard\Editor\CardboardMenu.cs" />
-     <Compile Include="Assets\Cardboard\Editor\CardboardSetup.cs" />
-     <Compile Include="Assets\Cardboard\Editor\StereoControllerEditor.cs" />
-     <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
-     <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
-     <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
-     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\Cardboard\Resources\UI\CardboardReticleShader.shader" />
-     <None Include="Assets\Cardboard\Resources\SolidColor.shader" />
+     <Compile Include="Assets\GoogleVR\Editor\Audio\GvrAudioListenerEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\Audio\GvrAudioRoomEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\Audio\GvrAudioSourceEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrTooltipEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\EventSystem\GvrPointerScrollInputEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrBuildProcessor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrCompatibilityChecker.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrMenu.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrViewerEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Editor\GvrGazeEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Legacy\Editor\StereoControllerEditor.cs" />
+     <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
+     <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+     <None Include="Assets\GoogleVR\Legacy\Resources\UnlitTexture.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
+     <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
+     <None Include="Assets\GoogleVR\Legacy\Resources\SolidColor.shader" />
+     <None Include="Assets\GoogleVR\Shaders\GvrUnityCompatibility.cginc" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -121,6 +135,9 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.ProtocolBuffers">
+ <HintPath>C:/Users/cmama/Documents/VRTest/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
