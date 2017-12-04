@@ -2,8 +2,8 @@
 
 Repositorio de pruebas desarollados en el marco de la Monitoria de Investigacion.
 
-Estudiante: Cristian Amaya
-Estudiante de Doctorado: Jose L. Dorado Collazos
+*Estudiante: Cristian Amaya
+*Estudiante de Doctorado: Jose L. Dorado Collazos
 
 Pruebas:
 
