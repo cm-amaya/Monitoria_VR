@@ -53,6 +53,7 @@
      <Compile Include="Assets\Cardboard\Editor\CardboardMenu.cs" />
      <Compile Include="Assets\Cardboard\Editor\CardboardSetup.cs" />
      <Compile Include="Assets\Cardboard\Editor\StereoControllerEditor.cs" />
+     <Compile Include="Assets\Editor\Instant Screenshot\ScreenshotTaker.cs" />
      <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
      <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
      <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
